@@ -3,14 +3,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -18,18 +18,22 @@
 }
 
 .Movie-container {
-  width: 100%;  
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  border-radius: 10px;
+  /* Mengatur border-radius untuk membuat sudut-sudut lebih melengkung */
+
 }
 
 .Movie-wrapper {
   width: 500px;
   background-color: antiquewhite;
   color: black;
+  border-radius: 40px;
 }
 
 .Movie-search {
@@ -39,10 +43,11 @@
   padding: 16px;
   font-weight: bold;
   width: 475px;
+  border-radius: 40px;
 }
 
 .Movie-title {
-  height: 60px;
+  height: 40px;
   margin-top: 26px;
   font-weight: bold;
 
